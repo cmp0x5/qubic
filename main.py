@@ -16,7 +16,7 @@ def main():
     jogo = Jogo(tela, cores)
     
     fonteInput = pygame.font.SysFont('Courier', 20)
-    pygame.mixer.music.load('CornettaPiano.ogg')
+    pygame.mixer.music.load('media/CornettaPiano.ogg')
     pygame.mixer.music.set_volume(0.5)
     inputTexto = ''
     
